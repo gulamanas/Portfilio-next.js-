@@ -26,4 +26,9 @@ const Navigation = () => {
   );
 };
 
+const navLinks = [
+  { id: 1, name: 'Home', link: '/' },
+  { id: 2, name: 'About', link: '/' },
+];
+
 export default Navigation;

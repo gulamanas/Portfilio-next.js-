@@ -3,8 +3,8 @@ import profile from '../../assets/anas-dp.png';
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-around h-screen'>
-      <div className='text-5xl font-semibold leading-snug'>
+    <header className='flex flex-col lg:flex-row items-center justify-around h-screen'>
+      <div className='text-3xl lg:text-5xl font-semibold leading-snug'>
         <span className=' text-[#0087CA]'>Hello!</span>
         <br />
         My Name is <span className='text-[#0087CA]'>Anas</span>

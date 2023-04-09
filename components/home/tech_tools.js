@@ -17,8 +17,8 @@ import xdLogo from '../../assets/xd.png';
 const TechTools = () => {
   return (
     <>
-      <h3 className='text-5xl font-semibold mt-7'>Tech & Tools</h3>
-      <div className='flex items-center gap-3 flex-wrap mt-7'>
+      <h3 className='text-5xl font-semibold mt-7 text-center'>Tech & Tools</h3>
+      <div className='flex items-center justify-center gap-3 flex-wrap mt-7'>
         {toolsLogoData.map(data => {
           return (
             <div
