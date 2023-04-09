@@ -26,7 +26,7 @@ const Navigation = () => {
         id='listItems'
         className={`fixed top-16 left-0 w-full shadow-lg sm:shadow-none ${
           nav ? 'scale-100' : 'scale-y-0 '
-        } transition-all origin-top flex flex-col gap-3 bg-white sm:flex-row sm:static sm:justify-between sm:w-auto`}
+        } sm:scale-100 transition-all origin-top flex flex-col gap-3 bg-white sm:flex-row sm:static sm:justify-between sm:w-auto`}
       >
         {navLinks.map(data => {
           return (
