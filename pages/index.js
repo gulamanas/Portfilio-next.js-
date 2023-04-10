@@ -6,6 +6,7 @@ import Header from '../components/home/header';
 import Projects from '../components/home/projects';
 import Footer from '../components/Footer';
 import ContactForm from '../components/home/contactForm';
+import SplittedTab from '../components/home/splittedTab';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <TechTools />
         <Projects />
+        <SplittedTab />
         <ContactForm />
       </main>
       <Footer />

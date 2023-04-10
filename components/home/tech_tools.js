@@ -5,6 +5,7 @@ import htmlLogo from '../../assets/html.png';
 import cssLogo from '../../assets/css.png';
 import jsLogo from '../../assets/js.png';
 import bootstrapLogo from '../../assets/bootstrap.png';
+import tailwindLogo from '../../assets/tailwind.png';
 import reactLogo from '../../assets/react.png';
 import sassLogo from '../../assets/sass.png';
 import gitLogo from '../../assets/git.png';
@@ -63,15 +64,15 @@ const toolsLogoData = [
   },
   {
     id: 4,
-    src: bootstrapLogo,
-    alt: 'BS logo',
-    text: 'Bootstrap',
-  },
-  {
-    id: 5,
     src: reactLogo,
     alt: 'React logo',
     text: 'React',
+  },
+  {
+    id: 5,
+    src: tailwindLogo,
+    alt: 'Tailwind logo',
+    text: 'Tailwind',
   },
   {
     id: 6,

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import logo from '../assets/ga.png';
+import Link from 'next/link';
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,7 @@ const Navigation = () => {
         {navLinks.map(data => {
           return (
             <li key={data.id}>
-              <a href='#'>{data.name}</a>
+              <Link href={data.link}>{data.name}</Link>
             </li>
           );
         })}
